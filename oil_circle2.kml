@@ -1,0 +1,384 @@
+<?xml version=1.0 encoding=UTF-8?>
+<kml xmlns=http://www.opengis.net/kml/2.2 xmlns:gx=http://www.google.com/kml/ext/2.2 xmlns:kml=http://www.opengis.net/kml/2.2 xmlns:atom=http://www.w3.org/2005/Atom>
+<Document>
+    <name>circle.kml</name>
+    <Style id=sn_ylw-pushpin>
+        <IconStyle>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x=20 y=2 xunits=pixels yunits=pixels/>
+        </IconStyle>
+        <PolyStyle>
+            <color>3f0000ff</color>
+        </PolyStyle>
+    </Style>
+    <StyleMap id=msn_ylw-pushpin>
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#sn_ylw-pushpin</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#sh_ylw-pushpin</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id=sh_ylw-pushpin>
+        <IconStyle>
+            <scale>1.3</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x=20 y=2 xunits=pixels yunits=pixels/>
+        </IconStyle>
+        <PolyStyle>
+            <color>3f0000ff</color>
+        </PolyStyle>
+    </Style>
+    <StyleMap id=msn_ferry>
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#sn_ferry</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+        </Pair>
+    </StyleMap>
+    <Style id=sh_ferry>
+        <IconStyle>
+            <scale>1.4</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+            </Icon>
+            <hotSpot x=0.5 y=0 xunits=fraction yunits=fraction/>
+        </IconStyle>
+    </Style>
+    <Style id=sn_ferry>
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/ferry.png</href>
+            </Icon>
+            <hotSpot x=0.5 y=0 xunits=fraction yunits=fraction/>
+        </IconStyle>
+    </Style>
+    <StyleMap id=failed>
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#failed1</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#failed0</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id=failed0>
+        <IconStyle>
+            <Icon>
+            </Icon>
+        </IconStyle>
+        <ListStyle>
+        </ListStyle>
+    </Style>
+    <Style id=failed1>
+        <IconStyle>
+            <Icon>
+            </Icon>
+        </IconStyle>
+        <ListStyle>
+        </ListStyle>
+    </Style>
+    <Placemark>
+        <LookAt>
+            <altitude>0</altitude>
+            <heading>0.03046363468788034</heading>
+            <tilt>13.46439799210791</tilt>
+            <range>10567.29192197039</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+        <styleUrl>#msn_ferry</styleUrl>
+        <Point>
+            <gx:drawOrder>1</gx:drawOrder>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+ 
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+    <Placemark>
+        <styleUrl>#failed</styleUrl>
+        <Point>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>多邊形</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+            <tessellate>1</tessellate>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        
+
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
